@@ -1,0 +1,216 @@
+[
+    {
+        "outputFile": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2316,
+                    "endColumn": 42,
+                    "endOffset": 2354
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 42,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2359,
+                    "endColumn": 58,
+                    "endOffset": 2413
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endColumn": 58,
+                        "endOffset": 1107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2418,
+                    "endColumn": 57,
+                    "endOffset": 2471
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 57,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2476,
+                    "endColumn": 41,
+                    "endOffset": 2513
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1170,
+                        "endColumn": 41,
+                        "endOffset": 1207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2518,
+                    "endColumn": 41,
+                    "endOffset": 2555
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 960,
+                        "endColumn": 42,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2560,
+                    "endColumn": 47,
+                    "endOffset": 2603
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 722,
+                        "endColumn": 47,
+                        "endOffset": 765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2608,
+                    "endColumn": 49,
+                    "endOffset": 2653
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 49,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2658,
+                    "endColumn": 44,
+                    "endOffset": 2698
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endColumn": 45,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2703,
+                    "endColumn": 43,
+                    "endOffset": 2742
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 44,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2747,
+                    "endColumn": 47,
+                    "endOffset": 2790
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 770,
+                        "endColumn": 48,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2795,
+                    "endColumn": 48,
+                    "endOffset": 2839
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 819,
+                        "endColumn": 49,
+                        "endOffset": 864
+                    }
+                }
+            }
+        ]
+    }
+]

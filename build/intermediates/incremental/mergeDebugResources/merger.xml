@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="25.1.1$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/res"/></dataSet><dataSet config="25.1.1$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/res"/></dataSet><dataSet config="25.1.1$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/res"/></dataSet><dataSet config="25.1.1$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/res"/></dataSet><dataSet config="25.1.1$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/res"/></dataSet><dataSet config="25.1.1$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res"/><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/generated/res/rs/debug"/><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/debug/res"/></dataSet><dataSet config="25.1.1" from-dependency="true" generated-set="25.1.1$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/res"/></dataSet><dataSet config="25.1.1" from-dependency="true" generated-set="25.1.1$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/res"/></dataSet><dataSet config="25.1.1" from-dependency="true" generated-set="25.1.1$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/res"/></dataSet><dataSet config="25.1.1" from-dependency="true" generated-set="25.1.1$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/res"/></dataSet><dataSet config="25.1.1" from-dependency="true" generated-set="25.1.1$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/res"/></dataSet><dataSet config="25.1.1" from-dependency="true" generated-set="25.1.1$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res"><file path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="TransitionManager">
+        <!-- The id of a transition to be used in a particular scene change. -->
+        <attr format="reference" name="transition"/>
+        <!-- The originating scene in this scene change. -->
+        <attr format="reference" name="fromScene"/>
+        <!-- The destination scene in this scene change. -->
+        <attr format="reference" name="toScene"/>
+    </declare-styleable><declare-styleable name="ArcMotion">
+        <!-- The minimum arc angle in degrees between the start and end points when
+             they are close to horizontal. -->
+        <attr format="float" name="minimumHorizontalAngle"/>
+        <!-- The minimum arc angle in degrees between the start and end points when
+             they are close to vertical. -->
+        <attr format="float" name="minimumVerticalAngle"/>
+        <!-- The maximum arc angle in degrees between the start and end points. -->
+        <attr format="float" name="maximumAngle"/>
+    </declare-styleable><declare-styleable name="TransitionTarget">
+        <!-- The id of a target on which this transition will animate changes. -->
+        <attr format="reference" name="targetId"/>
+        <!-- The id of a target to exclude from this transition. -->
+        <attr format="reference" name="excludeId"/>
+        <!-- The fully-qualified name of the Class to include in this transition. -->
+        <attr format="string" name="targetClass"/>
+        <!-- The fully-qualified name of the Class to exclude from this transition. -->
+        <attr format="string" name="excludeClass"/>
+        <!-- The transitionName of the target on which this transition will animation changes. -->
+        <attr format="string" name="targetName"/>
+        <!-- The transitionName of the target to exclude from this transition. -->
+        <attr format="string" name="excludeName"/>
+    </declare-styleable><declare-styleable name="Slide">
+        <attr name="slideEdge">
+            <!-- Slide to and from the left edge of the Scene. -->
+            <enum name="left" value="0x03"/>
+            <!-- Slide to and from the top edge of the Scene. -->
+            <enum name="top" value="0x30"/>
+            <!-- Slide to and from the right edge of the Scene. -->
+            <enum name="right" value="0x05"/>
+            <!-- Slide to and from the bottom edge of the Scene. -->
+            <enum name="bottom" value="0x50"/>
+        </attr>
+    </declare-styleable><declare-styleable name="Transition">
+        <!-- Amount of time (in milliseconds) that the transition should run. -->
+        <attr name="android:duration"/>
+        <attr format="integer" name="duration"/>
+        <!-- Delay in milliseconds before the transition starts. -->
+        <attr format="integer" name="startDelay"/>
+        <!-- Interpolator to be used in the animations spawned by this transition. -->
+        <attr name="android:interpolator"/>
+        <attr format="reference" name="interpolator"/>
+        <!-- The match order to use for the transition. This is a comma-separated
+             list of values, containing one or more of the following:
+             id, itemId, name, instance. These correspond to
+             {@link com.transitionseverywhere.Transition#MATCH_ID},
+             {@link com.transitionseverywhere.Transition#MATCH_ITEM_ID},
+             {@link com.transitionseverywhere.Transition#MATCH_NAME}, and
+             {@link com.transitionseverywhere.Transition#MATCH_INSTANCE}, respectively.
+             This corresponds to {@link com.transitionseverywhere.Transition#setMatchOrder(int...)}. -->
+        <attr format="string" name="matchOrder"/>
+    </declare-styleable><declare-styleable name="PatternPathMotion">
+        <!-- The path string describing the pattern to use for the PathPathMotion. -->
+        <attr format="string" name="patternPathData"/>
+    </declare-styleable><declare-styleable name="ChangeTransform">
+        <!-- A parent change should use an overlay or affect the transform of the
+             transitionining View. Default is true. Corresponds to
+             {@link com.transitionseverywhere.ChangeTransform#setReparentWithOverlay(boolean)}. -->
+        <attr format="boolean" name="reparentWithOverlay"/>
+
+        <!-- Tells ChangeTransform to track parent changes. Default is true. Corresponds to
+             {@link com.transitionseverywhere.ChangeTransform#setReparent(boolean)}. -->
+        <attr format="boolean" name="reparent"/>
+    </declare-styleable><declare-styleable name="ChangeBounds">
+        <!-- Resize the view by adjusting the clipBounds rather than changing the
+             dimensions of the view itself. The default value is false. -->
+        <attr format="boolean" name="resizeClip"/>
+    </declare-styleable><declare-styleable name="Scale">
+        <!--Value of scale on start of appearing or in finish of disappearing.
+         Default value is 0. Can be useful for mixing some Visibility transitions,
+         for example Scale and Fade. -->
+        <attr format="float" name="disappearedScale"/>
+    </declare-styleable><declare-styleable name="Fade">
+        <!-- Equivalent to <code>transitionVisibilityMode</code>, fadingMode works only
+             with the Fade transition. -->
+        <attr name="fadingMode">
+            <!-- Fade will only fade appearing items in. -->
+            <enum name="fade_in" value="1"/>
+            <!-- Fade will only fade disappearing items out. -->
+            <enum name="fade_out" value="2"/>
+            <!-- Fade will fade appearing items in and disappearing items out. -->
+            <enum name="fade_in_out" value="3"/>
+        </attr>
+    </declare-styleable><declare-styleable name="VisibilityTransition">
+        <!-- Changes whether the transition supports appearing and/or disappearing Views.
+             Corresponds to {@link com.transitionseverywhere.Visibility#setMode(int)}. -->
+        <attr name="transitionVisibilityMode">
+            <!-- Only appearing Views will be supported. -->
+            <flag name="mode_in" value="1"/>
+            <!-- Only disappearing Views will be supported. -->
+            <flag name="mode_out" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="TransitionSet">
+        <attr name="transitionOrdering">
+            <!-- child transitions should be played together. -->
+            <enum name="together" value="0"/>
+            <!-- child transitions should be played sequentially, in the same order
+            as the xml. -->
+            <enum name="sequential" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/main/res/values/ids.xml" qualifiers=""><item name="transitionTransform" type="id"/><item name="transitionPosition" type="id"/><item name="overlay_view" type="id"/><item name="parentMatrix" type="id"/><item name="runningTransitions" type="id"/><item name="scene_layoutid_cache" type="id"/><item name="overlay_layout_params_backup" type="id"/><item name="transitionName" type="id"/><item name="group_layouttransition_backup" type="id"/><item name="transitionAlpha" type="id"/><item name="current_scene" type="id"/></file></source><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/generated/res/rs/debug"/><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/home/delaroy/AndroidStudioProjects/ActivityTransition/library/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TransitionManager"><attr format="reference" name="transition"/><attr format="reference" name="fromScene"/><attr format="reference" name="toScene"/></declare-styleable><declare-styleable name="ChangeTransform"><attr format="boolean" name="reparentWithOverlay"/><attr format="boolean" name="reparent"/></declare-styleable><declare-styleable name="Slide"><attr name="slideEdge"><enum name="left" value="0x03"/><enum name="top" value="0x30"/><enum name="right" value="0x05"/><enum name="bottom" value="0x50"/></attr></declare-styleable><declare-styleable name="TransitionSet"><attr name="transitionOrdering"><enum name="together" value="0"/><enum name="sequential" value="1"/></attr></declare-styleable><declare-styleable name="ChangeBounds"><attr format="boolean" name="resizeClip"/></declare-styleable><declare-styleable name="TransitionTarget"><attr format="reference" name="targetId"/><attr format="reference" name="excludeId"/><attr format="string" name="targetClass"/><attr format="string" name="excludeClass"/><attr format="string" name="targetName"/><attr format="string" name="excludeName"/></declare-styleable><declare-styleable name="Transition"><attr name="android:duration"/><attr format="integer" name="duration"/><attr format="integer" name="startDelay"/><attr name="android:interpolator"/><attr format="reference" name="interpolator"/><attr format="string" name="matchOrder"/></declare-styleable><declare-styleable name="PatternPathMotion"><attr format="string" name="patternPathData"/></declare-styleable><declare-styleable name="Scale"><attr format="float" name="disappearedScale"/></declare-styleable><declare-styleable name="VisibilityTransition"><attr name="transitionVisibilityMode"><flag name="mode_in" value="1"/><flag name="mode_out" value="2"/></attr></declare-styleable><declare-styleable name="Fade"><attr name="fadingMode"><enum name="fade_in" value="1"/><enum name="fade_out" value="2"/><enum name="fade_in_out" value="3"/></attr></declare-styleable><declare-styleable name="ArcMotion"><attr format="float" name="minimumHorizontalAngle"/><attr format="float" name="minimumVerticalAngle"/><attr format="float" name="maximumAngle"/></declare-styleable></configuration></mergedItems></merger>

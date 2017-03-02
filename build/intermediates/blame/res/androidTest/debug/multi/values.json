@@ -1,0 +1,216 @@
+[
+    {
+        "outputFile": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2316,
+                    "endColumn": 42,
+                    "endOffset": 2354
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2316,
+                        "endColumn": 42,
+                        "endOffset": 2354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2359,
+                    "endColumn": 58,
+                    "endOffset": 2413
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2359,
+                        "endColumn": 58,
+                        "endOffset": 2413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2418,
+                    "endColumn": 57,
+                    "endOffset": 2471
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2418,
+                        "endColumn": 57,
+                        "endOffset": 2471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2476,
+                    "endColumn": 41,
+                    "endOffset": 2513
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2476,
+                        "endColumn": 41,
+                        "endOffset": 2513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2518,
+                    "endColumn": 41,
+                    "endOffset": 2555
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2518,
+                        "endColumn": 41,
+                        "endOffset": 2555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2560,
+                    "endColumn": 47,
+                    "endOffset": 2603
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2560,
+                        "endColumn": 47,
+                        "endOffset": 2603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2608,
+                    "endColumn": 49,
+                    "endOffset": 2653
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2608,
+                        "endColumn": 49,
+                        "endOffset": 2653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2658,
+                    "endColumn": 44,
+                    "endOffset": 2698
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2658,
+                        "endColumn": 44,
+                        "endOffset": 2698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2703,
+                    "endColumn": 43,
+                    "endOffset": 2742
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2703,
+                        "endColumn": 43,
+                        "endOffset": 2742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2747,
+                    "endColumn": 47,
+                    "endOffset": 2790
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2747,
+                        "endColumn": 47,
+                        "endOffset": 2790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2795,
+                    "endColumn": 48,
+                    "endOffset": 2839
+                },
+                "from": {
+                    "file": "/home/delaroy/AndroidStudioProjects/ActivityTransition/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endColumn": 48,
+                        "endOffset": 2839
+                    }
+                }
+            }
+        ]
+    }
+]
